@@ -179,3 +179,15 @@ cython_debug/
 #  refer to https://docs.cursor.com/context/ignore-files
 .cursorignore
 .cursorindexingignore
+
+# Project outputs
+models/
+outputs/
+
+# Saved model files
+*.pkl
+*.joblib
+
+# System files
+.DS_Store
+Thumbs.db
